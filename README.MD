@@ -16,3 +16,8 @@ _I am quite cold_
 [Link to my Github!](https://github.com/BunchDevelopment)
 
 ![May the Octocat be with you](https://i.pinimg.com/236x/dc/ef/3a/dcef3abedf0e0761203aaeb85886a6f3--jedi-knight-open-source.jpg)
+
+Buzzwords in tech that interest me
+1)ReactJS
+2)Huawei
+3)CSS Variables
