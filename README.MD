@@ -3,7 +3,7 @@
 ## I love dogs. They're floofy.
 
 ### I literally live off caffine.
-###_I mean it. Me and caffine are like total BFFs_
+_I mean it. Me and caffine are like total BFFs_
 
 _I am quite cold_
 
