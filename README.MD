@@ -9,9 +9,9 @@ _I am quite cold_
 
 **BOLD**
 
-- phone number 573-714-5311
-- email brandon_bunch@icloud.com
-- website WIP
+- Phone number: 573-714-5311
+- Email: brandon_bunch@icloud.com
+- Website: WIP
 
 [Link to my Github!](https://github.com/BunchDevelopment)
 
