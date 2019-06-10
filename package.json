@@ -1,0 +1,24 @@
+{
+  "name": "BrandonBunch",
+  "version": "1.0.0",
+  "description": "## I love dogs. They're floofy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BunchDevelopment/BrandonBunch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BunchDevelopment/BrandonBunch/issues"
+  },
+  "homepage": "https://github.com/BunchDevelopment/BrandonBunch#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
