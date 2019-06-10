@@ -19,5 +19,5 @@ _I am quite cold_
 
 Buzzwords in tech that interest me
 <br>1)ReactJS
-<br>2)Huawei
+<br>2)VueJS
 <br>3)CSS Variables
