@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="text" placeholder="First Name" name="firstname" />
+            <br>
+            <input type="text" placeholder="Last Name" name="lastname" />
+            <br>
+            <input type="email" placeholder="mail@example.com" name="email" />
+            <br>
+            <input type="submit" />
+        </div>
+        <div>
+            <input type="radio" name="subject" value="personal" id="personal" />
+            <label for="personal">Personal message</label>
+            <input type="radio" name="subject" value="professional" id="professional" />
+            <label for="personal">Professional message</label>
+        </div>
+        <div>
+            <input type="checkbox" name="opt-in" value="opt-in" checked /> Add me to your email list!
+            <input type="checkbox" name="opt-out" value="opt-out" disabled /> Disabled option. 
+        </div>
+    </form>
+</body>
+</html>
