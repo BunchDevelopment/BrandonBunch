@@ -1,4 +1,15 @@
 body {
     display: block;
     margin: auto;
+    background-color: antiquewhite;
+}
+
+/* nav styles */
+a:link, a:visited, a:hover, a:active {
+    background-color: #476970;
+    color: antiquewhite;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
