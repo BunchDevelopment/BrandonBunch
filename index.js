@@ -1,8 +1,9 @@
 console.log('Hello World!');
 let name = prompt('What is your name?');
-const checkName = function{
+
+const introPrompt = function() { 
     if(name === ''){
-    name = prompt('Really? gonna leave me like this? One last time...');
+        name = prompt('Really? gonna leave me like this? One last time...');
         if(name === ''){
             alert('Well Hello anyways stranger.');
         }
@@ -13,6 +14,6 @@ const checkName = function{
     else{
         alert('Hello ' + name);
     }
-}
+};
 
-checkName();
+introPrompt();
