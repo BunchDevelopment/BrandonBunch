@@ -2,14 +2,65 @@ body {
     display: block;
     margin: auto;
     background-color: antiquewhite;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    max-width: 1200px;
 }
 
 /* nav styles */
-a:link, a:visited, a:hover, a:active {
+nav>a:link, nav>a:visited, nav>a:active {
     background-color: #476970;
     color: antiquewhite;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin: 5px;
+    min-width: 87px;
+    max-width: 87px;
+}
+
+nav>a:hover{
+    border: black 1px solid;
+}
+
+#blogIMG {
+    max-height: 215px;
+    width: auto;
+}
+
+/* Begin Button Styling */
+.btn {
+    background-color: #617493 ;
+    text-align: center;
+    color: white;
+    padding: 16px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 105.41px;
+}
+
+section > a{
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #476970;
+}
+
+/* styles content break */
+hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #476970;
+    margin: 1em 0; 
+    padding: 0;
+}
+
+/* Page Title style */
+.pageHeader {
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: visible;
+
 }

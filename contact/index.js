@@ -1,3 +1,8 @@
-const name = prompt('Hi! What is your name?');
+const firstName = prompt('Hi! What is your first name?') || 'Visitor';
+const lastName = prompt('Hi! What is your last name?') || 'McDefaultson';
 const output = document.querySelector('#greeting');
-output.textContent = `Thanks for visiting ${name}.`; 
+//output.innerHTML = `<p>Thanks for visiting ${name}.</p>`; 
+
+if (firstName || lastName) {
+    output.innerHTML = `<p>Thanks for visiting ${firstName} ${lastName}.</p>`;
+}
