@@ -1,5 +1,5 @@
 console.log('Hello World!');
-let name = prompt('What is your name?');
+//let name = prompt('What is your name?');
 
 const introPrompt = function() { 
     if(name === ''){
@@ -16,4 +16,4 @@ const introPrompt = function() {
     }
 };
 
-introPrompt();
+//introPrompt();
