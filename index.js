@@ -1,19 +1,13 @@
-console.log('Hello World!');
-//let name = prompt('What is your name?');
+import navigation from "./components/navigation.js";
+import blog from "./components/blog.js";
+import contact from "./components/contact.js";
+import project from "./components/project.js";
 
-const introPrompt = function() { 
-    if(name === ''){
-        name = prompt('Really? gonna leave me like this? One last time...');
-        if(name === ''){
-            alert('Well Hello anyways stranger.');
-        }
-        else{
-            alert('Hello ' + name);
-        }
-    }
-    else{
-        alert('Hello ' + name);
-    }
-};
+const initialHTML = document.getElementById("header").innerHTML;
 
-//introPrompt();
+document.getElementById("header").innerHTML = `
+${navigation}
+${blog}
+${contact}
+${project}
+${initialHTML}`;
