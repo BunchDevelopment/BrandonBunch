@@ -1,5 +1,4 @@
-export default function contact() {
-    return `
+export default`
 <div id="greeting">
         
 </div>
