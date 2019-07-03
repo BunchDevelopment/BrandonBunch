@@ -1,4 +1,5 @@
-export default`
+export default function contact() {
+    return `
 <div id="greeting">
         
 </div>
@@ -48,4 +49,4 @@ export default`
         </div> 
     </div>
 </form>
-`;
+`};

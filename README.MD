@@ -17,7 +17,3 @@ _I am quite cold_
 
 ![May the Octocat be with you](https://i.pinimg.com/236x/dc/ef/3a/dcef3abedf0e0761203aaeb85886a6f3--jedi-knight-open-source.jpg)
 
-Buzzwords in tech that interest me
-<br>1)ReactJS
-<br>2)VueJS
-<br>3)CSS Variables

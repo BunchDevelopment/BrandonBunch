@@ -1,4 +1,5 @@
-export default`
+export default function navigation() {
+    return `
 <div class="grid-col-12">
     <h1 class="pageHeader col-header">Welcome to My Blog!</h1>
     <hr class="col-1-span-all">
@@ -58,4 +59,4 @@ export default`
     <hr>
 
 
-`
+`}
