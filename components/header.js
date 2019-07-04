@@ -1,5 +1,5 @@
-export default`
+export default (state) =>`
     <header>
-        <h4>Header component</h4>
+        <h4>${state.title}</h4>
     </header>
 `;

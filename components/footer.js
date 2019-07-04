@@ -1,6 +1,6 @@
-export default`
+export default (state) =>`
     <footer>
-        <p>footer content</p>
+        <p>${state.footer}</p>
     </footer>
 
 `;

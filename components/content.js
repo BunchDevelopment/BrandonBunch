@@ -1,5 +1,5 @@
-export default`
+export default (state) =>`
     <main>
-        <h6>this is content.js</h6>
+        <h6>${state.content}</h6>
     </main>
 `;
