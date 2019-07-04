@@ -1,4 +1,4 @@
-export default`
+export default (state) =>`
 <div id="greeting">
         
 </div>
@@ -48,4 +48,4 @@ export default`
         </div> 
     </div>
 </form>
-`};
+`;
