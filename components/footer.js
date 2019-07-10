@@ -1,6 +1,8 @@
-export default (state) =>`
+export default function Footer() { 
+    return `
     <footer>
-        <p>${state.footer}</p>
+        <p> footer</p>
     </footer>
 
 `;
+}

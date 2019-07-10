@@ -1,5 +1,6 @@
 
-export default (state) =>`
+export default function Navigation() {
+        return `
 <nav id="home-nav" class="row-buffer-top col-1-span-2">
         <a href="index.html">Home</a>
         <a href="index.html">Blog</a>
@@ -7,3 +8,4 @@ export default (state) =>`
         <a href="index.html">Contact</a>
 </nav>
 `;
+}

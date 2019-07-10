@@ -1,4 +1,4 @@
-export default{
+export default {
     title: 'home store title',
     pageContent: 'Home'
-};  
+};
