@@ -1,11 +1,43 @@
 
-export default function Navigation() {
+
+function buildLinks(linkArray) {
+        let link = '';
+        let links = '';
+        let x=0;
+
+        linkArray.forEach(link => {
+                if(linkArray[x] !== "Home")
+                {
+                        link = linkArray[x];
+                }
+
+                links += `
+                        <a href="/${(link)}" data-navigo>
+                        ${linkArray[x]}
+                        </a>
+                `;
+                x++;
+        })
+        while(x < linkArray.length) {
+                if(linkArray[x] !== "Home"){
+                        link = linkArray[x];
+                }
+                
+                links += `
+                        <a href="/${(link)}" data-navigo>
+                        ${linkArray[x]}
+                        </a>
+                `;
+                x++;
+        }
+        return links;
+};
+
+
+export default function Navigation(state) {
         return `
 <nav id="home-nav" class="row-buffer-top col-1-span-2">
-        <a href="index.html">Home</a>
-        <a href="index.html">Blog</a>
-        <a href="index.html">Portfolio</a>
-        <a href="index.html">Contact</a>
+       ${buildLinks(state.links)}
 </nav>
 `;
 }

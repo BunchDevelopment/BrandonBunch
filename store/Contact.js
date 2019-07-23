@@ -1,4 +1,5 @@
 export default {
     title: 'contact store title',
-    pageContent: 'Contact'
+    pageContent: 'Contact',
+    links: ['Home','Blog','Portfolio']
 };
