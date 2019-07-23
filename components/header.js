@@ -1,7 +1,7 @@
 export default function Header(state) { 
     return `
-    <header>
-        <h4>${state.title}</h4>
+    <header class="container">
+        <h2 class="pageHeader col-header">${state.title}</h2>
     </header>
 `;
 }

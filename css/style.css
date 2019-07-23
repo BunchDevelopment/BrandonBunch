@@ -62,5 +62,9 @@ hr {
     font-size: 50px;
     white-space: nowrap;
     overflow: visible;
-
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
 }

@@ -2,11 +2,6 @@ export default (state) =>`
 <div id="greeting">
         
 </div>
-
-
-<i class="fab fa-linkedin"></i>
-<br>
-
 <form action="//formspree.io/brandon_bunch@icloud.com" method="POST">
     <div>
         <input type="text" placeholder="First Name" name="firstname" />

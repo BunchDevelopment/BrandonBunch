@@ -1,8 +1,8 @@
 export default function Footer() { 
     return `
     <footer>
-        <p> footer</p>
+    <i class="fab fa-github-square"></i>
+    <i class="fab fa-linkedin"></i>
     </footer>
-
 `;
 }
