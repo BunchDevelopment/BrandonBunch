@@ -1,5 +1,4 @@
-export default function contact() {
-    return `
+export default (state) =>`
 <div id="greeting">
         
 </div>
@@ -49,4 +48,4 @@ export default function contact() {
         </div> 
     </div>
 </form>
-`};
+`;
