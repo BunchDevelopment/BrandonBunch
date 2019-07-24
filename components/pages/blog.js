@@ -1,6 +1,5 @@
 export default (state) =>`
 <div class="grid-col-12">
-    <h1 class="pageHeader col-header">Welcome to My Blog!</h1>
     <hr class="col-1-span-all">
     <h1 class="col-header">CSS Games</h1>
     <h4 class="col-header">18 June 2019</h4>

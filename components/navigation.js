@@ -36,7 +36,7 @@ function buildLinks(linkArray) {
 
 export default function Navigation(state) {
         return `
-<nav id="home-nav" class="row-buffer-top col-1-span-2">
+<nav id="home-nav" class="navigation animated fadeInLeft">
        ${buildLinks(state.links)}
 </nav>
 `;

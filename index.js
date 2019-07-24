@@ -23,11 +23,11 @@ function handleRoute(params){
 
 function render(state) {
     root.innerHTML = `
-        ${Navigation(state)}
         ${Header(state)}
+        ${Navigation(state)}
         ${Content(state)}
         ${Footer()}
     `;
 
     router.updatePageLinks();
-}
+};

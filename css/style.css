@@ -6,6 +6,15 @@ body {
     max-width: 1200px;
 }
 
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
 /* nav styles */
 nav>a:link, nav>a:visited, nav>a:active {
     background-color: #476970;
@@ -23,11 +32,10 @@ nav>a:hover{
     border: black 1px solid;
 }
 
-#blogIMG {
-    max-height: 215px;
-    width: auto;
+nav {
+    display: flex;
+    justify-content: center;
 }
-
 /* Begin Button Styling */
 .btn {
     background-color: #617493 ;
@@ -60,11 +68,20 @@ hr {
 /* Page Title style */
 .pageHeader {
     font-size: 50px;
-    white-space: nowrap;
     overflow: visible;
     justify-content: center;
 }
 .container {
     display: flex;
     justify-content: center;
+}
+/* FOOTER STYLES */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+footer > .fab {
+    padding: 5px;
 }

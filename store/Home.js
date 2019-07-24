@@ -1,5 +1,5 @@
 export default {
-    title: 'Welcome',
+    title: "Hello! I'm Brandon.",
     pageContent: 'Home',
     links: ['Blog','Contact','Portfolio']
 };

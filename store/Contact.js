@@ -1,5 +1,5 @@
 export default {
-    title: 'contact store title',
+    title: 'Send Me A Message!',
     pageContent: 'Contact',
     links: ['Home','Blog','Portfolio']
 };
