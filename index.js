@@ -1,9 +1,7 @@
 import Navigation from "./components/Navigation.js";
-import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import Content from "./components/Content.js";
 import * as states from "./store";
-
 import Navigo from 'navigo';
 
 
@@ -20,10 +18,19 @@ function handleRoute(params){
     const page = params.page;
     render(states[page]);
 }
+// WHAT IS GOING ON. THESE AUTO FIRE
+function personalFormShow() {
+    const personalForm = document.getElementById('personal');
+    personalForm.addEventListener('click', console.log('personal click'));
+}
+
+function professionalFormShow() {
+    const professionalForm = document.getElementById('professional');
+    professionalForm.addEventListener('click', console.log('clickity click'));
+}
 
 function render(state) {
     root.innerHTML = `
-        ${Header(state)}
         ${Navigation(state)}
         ${Content(state)}
         ${Footer()}
@@ -31,3 +38,5 @@ function render(state) {
 
     router.updatePageLinks();
 };
+// personalFormShow()
+// professionalFormShow()
