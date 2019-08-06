@@ -4,7 +4,7 @@ export default (state)=>`
 <hr >
 <div class="container row justify-content-center">
         <div class="headshotContainer">
-                <img class="headshot row justify-content-center" src="${image}">
+                <img class="headshot row justify-content-center blur" src="${image}">
         </div>
         <h2 class="pageHeader col-header animated fadeInLeft">${state.title}</h2>
         <h2 class="row row justify-content-center justify-content-center animated fadeIn">A little about how I started...</h2>

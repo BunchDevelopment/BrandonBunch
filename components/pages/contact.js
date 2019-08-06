@@ -1,6 +1,7 @@
 export default (state) =>`
-<div id="greeting">
-<h2 class="pageHeader col-header animated fadeInLeft">${state.title}</h2>     
+<hr>
+<div>
+<h2 class="pageHeader container justify-content-center animated fadeInLeft">${state.title}</h2>     
 </div>
 <form action="//formspree.io/brandon_bunch@icloud.com" method="POST">
     <div>
