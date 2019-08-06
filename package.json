@@ -4,7 +4,7 @@
   "description": "## I love dogs. They're floofy.",
   "main": "index.js",
   "scripts": {
-    "build": "npx parcel run index.html",
+    "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,10 +18,7 @@
     "url": "https://github.com/BunchDevelopment/BrandonBunch/issues"
   },
   "homepage": "https://github.com/BunchDevelopment/BrandonBunch#readme",
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "parcel-bundler": "^1.12.3"
-  },
+  "devDependencies": {},
   "dependencies": {
     "animate.css": "^3.7.2",
     "axios": "^0.19.0",
