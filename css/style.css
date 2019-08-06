@@ -2,7 +2,6 @@ body {
     background-color: #EAE7DC;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     max-width: 1400px;
-    margin: auto;
 }
 
 #root {
@@ -10,6 +9,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+
 main {
     flex: 1;
     margin: auto;
@@ -52,6 +52,12 @@ nav {
     margin-bottom: -1em;
     background-color: #D8c3A5;
 }
+
+.navigation {
+    padding-left: 50vw;
+    padding-right: 50vw;
+}
+
 /* Begin Button Styling */
 .btn {
     background-color: #e98074 ;
@@ -91,6 +97,7 @@ hr {
     margin: 1vh;
     color: #E85A4F;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -100,16 +107,38 @@ hr {
 #greeting {
     text-align: center;
 }
+
 /* FOOTER STYLES */
 footer {
     display: flex;
     justify-content: center;
     margin-top: -1.1em;
     background-color: #D8c3A5;
-    padding: 1em;
+    padding: 1em 50vw !important; /* Overides Bootstrap padding */
+    max-width: 1400px;
 }
 
 footer > a {
     padding: 0em .5em;
     color: #111;
+}
+
+/* PORTFOLIO IMG STYLE */
+.portfolioIMG {
+    width: 40vw;
+}
+
+.portfolioIMG:hover {
+    box-shadow: 0px 0px 20px 5px black; 
+    width: 43vw;
+    z-index: 1;
+}
+
+.headshotContainer {
+    margin: auto 50vh;
+}
+
+.headshot {
+    width: 15vw;
+    border-radius: 10%;
 }
