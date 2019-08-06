@@ -4,7 +4,7 @@
   "description": "## I love dogs. They're floofy.",
   "main": "index.js",
   "scripts": {
-    "build": "npx parcel build index.html",
+    // "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +25,8 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "navigo": "^7.1.2",
-    "popper.js": "^1.15.0",
     "npm": "^6.10.1",
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "popper.js": "^1.15.0"
   }
 }
