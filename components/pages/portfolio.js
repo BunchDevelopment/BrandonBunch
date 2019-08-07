@@ -1,5 +1,5 @@
-const memory=require('../../assets/memorygame.png')
-const pywebsite=require('../../assets/movie_website_snippit.png')
+const memory=require('./../../assets/memorygame.png')
+const pywebsite=require('./../../assets/movie_website_snippit.png')
 
 export default (state) => `
 <hr />

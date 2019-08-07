@@ -1,4 +1,4 @@
-const image=require('../../assets/headshot.jpg')
+const image=require('./../../assets/headshot.jpg')
 
 export default (state)=>`
 <hr >

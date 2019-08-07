@@ -1,7 +1,7 @@
 
 
 function buildLinks(linkArray) {
-        let link = '';
+        let link = './';
         let links = '';
         let x=0;
 
