@@ -2,7 +2,7 @@ import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer.js";
 import Content from "./components/Content.js";
 import * as states from "./store";
-import Navigo from 'navigo';
+import Navigo from './node_modules/navigo';
 
 
 
