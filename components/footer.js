@@ -1,4 +1,4 @@
-export default function Footer() { 
+export default function Footer(state) { 
     return `
     <footer class="container animated fadeInUp">
         <a href="https://github.com/BunchDevelopment" target="_blank">

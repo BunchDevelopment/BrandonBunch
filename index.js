@@ -2,7 +2,7 @@ import Navigation from "./components/Navigation.js";
 import Footer from "./components/Footer.js";
 import Content from "./components/Content.js";
 import * as states from "./store";
-import Navigo from './node_modules/navigo';
+import Navigo from 'navigo';
 
 
 
@@ -11,7 +11,7 @@ const root = document.querySelector("#root");
 
 router
     .on(":page", handleRoute)
-    .on("./", () => render(states.Home))
+    .on("/", () => render(states.Home))
     .resolve();
 
 function handleRoute(params){
@@ -26,7 +26,7 @@ function render(state) {
     root.innerHTML = `
         ${Navigation(state)}
         ${Content(state)}
-        ${Footer()}
+        ${Footer(state)}
     `;
 
     router.updatePageLinks();

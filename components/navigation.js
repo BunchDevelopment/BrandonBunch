@@ -12,7 +12,7 @@ function buildLinks(linkArray) {
                 }
 
                 links += `
-                        <a href="./${(link)}" data-navigo>
+                        <a href="/${(link)}" data-navigo>
                         ${linkArray[x]}
                         </a>
                 `;
@@ -24,7 +24,7 @@ function buildLinks(linkArray) {
                 }
                 
                 links += `
-                        <a href="./${(link)}" data-navigo>
+                        <a href="/${(link)}" data-navigo>
                         ${linkArray[x]}
                         </a>
                 `;
