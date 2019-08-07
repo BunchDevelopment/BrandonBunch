@@ -3,7 +3,7 @@ export default (state) =>`
 <div>
 <h2 class="pageHeader container justify-content-center animated fadeInLeft">${state.title}</h2>     
 </div>
-<form  method="POST">
+<form action="//formspree.io/brandon_bunch@icloud.com" method="POST">
     <div>
         <input type="radio" name="subject" value="personal" id="personal" />
         <label for="personal">Personal message</label>

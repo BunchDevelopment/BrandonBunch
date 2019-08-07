@@ -2,7 +2,7 @@
   "name": "BrandonBunch",
   "version": "1.0.0",
   "description": "## I love dogs. They're floofy.",
-  "main": "./index.js",
+  "main": "index.js",
   "scripts": {
     "build": "parcel build index.html && cp _redirects ./dist/"
   },
