@@ -11,7 +11,7 @@ const root = document.querySelector("#root");
 
 router
     .on(":page", handleRoute)
-    .on("/", () => render(states.Home))
+    .on("./", () => render(states.Home))
     .resolve();
 
 function handleRoute(params){
