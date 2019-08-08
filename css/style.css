@@ -42,6 +42,15 @@ form {
     }
 }
 
+a {
+    text-decoration: none;
+    color: #E85A4F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #476970;
+}
 /* nav styles */
 nav>a:link, nav>a:visited, nav>a:active {
     background-color: #e98074;

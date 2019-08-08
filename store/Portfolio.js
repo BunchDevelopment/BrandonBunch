@@ -1,5 +1,5 @@
 export default {
-    title: 'Look! I Did Some Things!',
+    title: 'Look! I did some things!',
     pageContent: 'Portfolio',
     links: ['Home','Contact','Blog', 'Goals']
 };

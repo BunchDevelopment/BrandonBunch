@@ -1,5 +1,5 @@
 export default {
-  title: "Looking Into The Future.",
+  title: "Looking into the future.",
   pageContent: 'Goals',
   links: ['Home', 'Blog','Contact','Portfolio']
 };
