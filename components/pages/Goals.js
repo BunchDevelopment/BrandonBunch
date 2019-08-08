@@ -1,6 +1,7 @@
 const reactIMG=require('./../../assets/react_photo.png')
 
 export default (state) =>`
+<hr>
 <div class="container row justify-content-center">
   <h2 class="pageHeader container justify-content-center animated fadeInLeft">${state.title}</h2>
   <h1 class="row col-sm-12 justify-content-center">What I Am Doing Next!</h1>
