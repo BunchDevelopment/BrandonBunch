@@ -164,3 +164,9 @@ footer > a {
     width: 70vw;
     margin-bottom: 1em;
 }
+
+#centerForm {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1em;
+}
