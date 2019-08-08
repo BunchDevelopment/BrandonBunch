@@ -11,6 +11,7 @@ export default (state) => `
     <a href="http://bunchdevelopment.github.io/udacity_memory_game/" target="_blank"><img src="${memory}" class="blur portfolioIMG" id="memoryImg"></a>
   </div>
 </div>
+<br />
 <div class="container row justify-content-center">
     <h1 class="row justify-content-center animated fadeIn">Py Entertainment</h1>
   <p class="animated fadeIn">This is a basic Python 2.7 script that takes dictionaries and then renders a website that then displays those dictionaries in a card like format that includes a modal that plays the movies trailer. Clicking the image takes you to the Github repo.</p>
