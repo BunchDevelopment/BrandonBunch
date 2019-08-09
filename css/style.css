@@ -61,6 +61,7 @@ nav>a:link, nav>a:visited, nav>a:active {
     display: inline-block;
     margin: 5px;
     min-width: 10em;
+    border-radius: 10px;
 }
 
 nav>a:hover{
