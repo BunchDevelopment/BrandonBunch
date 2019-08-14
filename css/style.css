@@ -180,3 +180,7 @@ footer > a {
     text-align: center;
     margin-bottom: 1em;
 }
+
+.imgContainer {
+    margin-bottom: 10vh;
+}

@@ -1,7 +1,8 @@
-const memory=require('./../../assets/memorygame.png')
-const pywebsite=require('./../../assets/movie_website_snippit.png')
+const memory = require("./../../assets/memorygame.png");
+const pywebsite = require("./../../assets/movie_website_snippit.png");
+const reactSW = require("./../../assets/reactSW.jpeg");
 
-export default (state) => `
+export default state => `
 <hr />
 <div class="container row justify-content-center">
   <h2 class="pageHeader col-header animated fadeInLeft">${state.title}</h2>
@@ -18,7 +19,14 @@ export default (state) => `
   <div class="imgContainer">
     <a href="https://github.com/BunchDevelopment/movie_website" target="_blank"><img src="${pywebsite}" class="blur portfolioIMG" id="pyImg"></a>
   </div>
-<br>
+<br />
+<div class="container row justify-content-center">
+    <h1 class="row justify-content-center animated fadeIn">React Star Wars</h1>
+  <p class="animated fadeIn">A small little website that is built with React, that pulls in data from an API of Star Wars characters, and then displays that data! It also uses an animation library. The Details are hidden and revealed using State! </p>
+  <div class="imgContainer">
+    <a href="https://github.com/BunchDevelopment/Starwars_React_API" target="_blank"><img src="${reactSW}" class="blur portfolioIMG" id="memoryImg"></a>
+    <br />
+  </div>
 </div>
-<br>
+<br />
 `;
